@@ -1,0 +1,20 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.com/yocondo/http-server.git"
+  },
+  "dependencies": {
+    "winston": "~0.7.3",
+    "express": "~4.4.3",
+    "es6-promise": "~1.0.0",
+    "compression": "~1.0.7",
+    "git-info": "git+ssh://git@bitbucket.org:yocondo/git-info.git"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}
