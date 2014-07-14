@@ -11,8 +11,7 @@
     "winston": "~0.7.3",
     "express": "~4.4.3",
     "es6-promise": "~1.0.0",
-    "compression": "~1.0.7",
-    "git-info": "git+ssh://git@bitbucket.org:yocondo/git-info.git"
+    "compression": "~1.0.7"
   },
   "devDependencies": {
     "coffee-script": "~1.7.1"
