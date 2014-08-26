@@ -18,7 +18,7 @@ module.exports = (options) ->
 
 		controller: (method, pattern, handler) ->
 			logger.info '[httpd] registering controller at %s %s', method.toUpperCase(), pattern
-			app[method.toLowerCase()] pattern, (req, res) -> reply res, handler(req)
+			app[method.toLowerCase()] pattern, (req, res) -> reply res, handler(req, res)
 
 		start: ->
 			port = options.port || 3000

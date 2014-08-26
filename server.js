@@ -23,7 +23,7 @@ module.exports = function(options) {
     controller: function(method, pattern, handler) {
       logger.info('[httpd] registering controller at %s %s', method.toUpperCase(), pattern);
       return app[method.toLowerCase()](pattern, function(req, res) {
-        return reply(res, handler(req));
+        return reply(res, handler(req, res));
       });
     },
     start: function() {
