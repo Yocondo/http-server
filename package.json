@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://bitbucket.com/yocondo/http-server.git"
+    "url": "git://github.com/yocondo/http-server.git"
   },
   "dependencies": {
     "winston": "~0.7.3",
