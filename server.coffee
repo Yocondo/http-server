@@ -30,6 +30,9 @@ module.exports = (options) ->
 				catch err
 					sendError res, err
 
+		static: (path) ->
+			app.use express.static path
+
 		start: ->
 			port = options.port || 3000
 			app.listen port, ->

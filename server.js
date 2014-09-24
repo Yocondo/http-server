@@ -39,6 +39,9 @@ module.exports = function(options) {
         }
       });
     },
+    "static": function(path) {
+      return app.use(express["static"](path));
+    },
     start: function() {
       var port;
       port = options.port || 3000;
